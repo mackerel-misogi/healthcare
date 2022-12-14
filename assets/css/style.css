@@ -11,6 +11,24 @@
     margin: 0;
     text-align: center;
 }
+.about h1{
+    padding: 10px;
+    border-bottom: 2px solid #000;
+    margin: 0 35%;
+}
+.about2{
+    margin: 0;
+    text-align: center;
+}
+.about2 *{
+    margin: 30px 0;
+}
+.about2_msg{
+    margin-bottom: 100px;
+}
+.about2_msg p{
+    font-size:23px;
+}
 .other{
     margin: 0;
     text-align: center;
@@ -33,7 +51,7 @@
     margin: 70px 0;
 }
 .flex_about p{
-    font-size:18px;
+    font-size:23px;
     margin: 0 50px;
 }
 .flex_img{
@@ -46,20 +64,23 @@
     width: 100%;
 }
 .click_btn{
-    display: flex;
-    justify-content: center;
-    border: 1px #000 solid;
-    border-radius: 50px;
-    width: 20%;
-    margin: 0 auto;
 }
 .click_btn a{
     text-decoration: none;
     color:#000;
+    display: block;
+    border: 1px #000 solid;
+    border-radius: 50px;
+    width: 280px;
+    margin: 0 auto;
+}
+.click_btn a:hover{
+    background-color: #c7a5a5;
+    color:#FFF;
+    border-color: #c7a5a5;
 }
 .footer_about{
     background-color: #EDDADA;
-}
-.footer_msg{
     color:#A5756D;
+    text-align: center;
 }
