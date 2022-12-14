@@ -84,3 +84,12 @@
     color:#A5756D;
     text-align: center;
 }
+
+@media only screen and (max-width:959px) and (min-width:415px){
+    .about h1{
+        margin: 0 20%;
+    }
+    .flex_about p{
+        margin: 0 20px;
+    }
+}
