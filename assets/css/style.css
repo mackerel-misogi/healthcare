@@ -83,6 +83,7 @@
     background-color: #EDDADA;
     color:#A5756D;
     text-align: center;
+    padding:10px 0;
 }
 
 @media only screen and (max-width:959px) and (min-width:415px){
