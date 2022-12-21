@@ -53,6 +53,8 @@
 .flex_about p{
     font-size:23px;
     margin: 0 50px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
 }
 .flex_img{
     width: 200px;
